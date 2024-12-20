@@ -1,0 +1,213 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #E0E0E0;
+}
+
+h1, h2, h3, p {
+    color: #E0E0E0;
+}
+
+h1.sub-title {
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+/* Header */
+#header {
+    background-color: #333;
+    padding: 20px 0;
+    color: #E0E0E0;
+}
+
+#header nav .left {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+#header nav .right ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+#header nav .right ul li {
+    margin-left: 20px;
+}
+
+#header nav .right ul li a {
+    color: #E0E0E0;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+#header nav .right ul li a:hover {
+    color: #FFD700;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+    border-bottom: 2px solid #444;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-col-1 img,
+.projects-col-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-col-2, .projects-col-2 {
+    max-width: 50%;
+}
+
+.tab-titles {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tab-links {
+    margin-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.tab-links:hover {
+    color: #FFD700;
+}
+
+.tab-links.active-link {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+.tab-contents {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li span {
+    font-weight: 700;
+}
+
+/* Projects Section */
+.proj {
+    text-align: center;
+    color: #FFD700;
+    margin-bottom: 40px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #FFD700;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #FFB300;
+}
+
+/* Contact Section */
+#contact .contact-left p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-right .social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 24px;
+    color: #E0E0E0;
+    transition: color 0.3s ease;
+}
+
+.contact-right .social-icons a:hover {
+    color: #FFD700;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Section Separator with Icons */
+section:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #444;
+    margin: 40px 0;
+}
+
+section#contact:after {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 50px;
+    color: #FFD700;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #E0E0E0;
+}

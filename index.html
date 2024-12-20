@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="left">Mahendra's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myprojects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="photo1.png" alt="Profile Photo">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am a dedicated and skilled Computer Science graduate with a background in software development and
+                            database management. During my internship, I developed a sentiment analysis website that enhanced
+                            my proficiency in Python and various libraries. I have worked on projects involving AI-driven
+                            applications and database management systems, showcasing my ability to create efficient solutions.
+                            I am eager to leverage my technical skills in a dynamic work environment.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages:</span>  Python, Java, HTML, CSS</li>
+                                <li><span>Databases:</span> Relational Database - MySQL, No-SQL - MongoDB</li>
+                                <li><span>Other Skills:</span> SDLC, OOPS, JDBC, Servlets, Debugging, Pandas, Matplotlib</li>
+                                <li><span>Soft Skills:</span>  Problem Solving, Self-learning, Team Work, Communication</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024:</span> BE in CSE - SVCE Bangalore (CGPA: 8.59)</li>
+                                <li><span>2018-2020:</span> PUE - Kanakashree Jnanadeepa PU College (Percentage: 86%)</li>
+                                <li><span>2027-2018:</span> SSLC - Sri Ramakrishna Rural High School (Percentage: 93.76%)</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="myprojects">
+            <h1 class="proj">My Projects</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="projects-col-1">
+                        <img src="images/senti.jpeg" alt="OpenWeaver Project">
+                    </div>
+                    <div class="projects-col-2">
+                        <h1 class="sub-title">OpenWeavr - Sentiment Analysis</h1>
+                        <p>
+                            Developed a sentiment analysis website that classifies user reviews into positive, negative, or neutral categories,providing actionable insights for product improvement.
+◦ Included additional features like language translation and text summarization.
+◦ Gained proficiency in Python programming and its libraries like Pandas and Matplotlib.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1SMzAWl6gPlOIDGwfREE1icQljPzXdo8e/view?usp=sharing" download><button class="btn">Download Certificate</button></a>
+                        <a class="btn" href="https://sentimentanalysis-app.openweaver.com/">Project Demo</a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="projects-col-1">
+                        <img src="images/restaurant.jpeg" alt="Restaurant Management System">
+                    </div>
+                    <div class="projects-col-2">
+                        <h1 class="sub-title">Restaurant Management System DBMS Project</h1>
+                        <p>
+                            Developed a database management system for a restaurant to automate and streamline operations.
+◦ Provided a comprehensive, database-driven solution for restaurant operations, improving staff efficiency in
+handling orders and serving customers.
+◦ Technology used : HTML, CSS, MySQL.
+                        </p>
+        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="projects-col-1">
+                        <img src="images/music.png" alt="Music Player Project">
+                    </div>
+                    <div class="projects-col-2">
+                        <h1 class="sub-title">TechoHackEduTech - Music Player</h1>
+                        <p>
+                            This project involves a Python-based GUI music player built using Tkinter. Users can load a folder
+                            containing music files, view the playlist, and play, pause, or stop songs through the interface.
+                        </p>
+                        <a href="https://drive.google.com/file/d/1vXFRJyn84pZYVCtzQlz5KQtEjcebGG0M/view?usp=sharing" download><button class="btn">Download Certificate</button></a>
+                        <a class="btn" href="https://github.com/Maahi-123/Music-Player-Using-Python">Project Repo</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="row1">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Email: mahendrarm788@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: 6366077226</p>
+                    </div>
+                    <div class="contact-right">
+                        <div class="social-icons">
+                            <a href="https://www.youtube.com/channel/UCsbMlgOn4IiRFAwbIfQWChA">YouTube</a>
+                            <a href="https://www.linkedin.com/in/mahendra-r-m-87b94a219/">LinkedIn</a>
+                            <a href="https://github.com/Maahi-123">GitHub</a>
+                        </div>
+                        <a href="https://drive.google.com/file/d/14N0j7Nfx0nF9o8zCCpNAuHv4WDuKBdGF/view?usp=sharing" download><button class="btn">Download Resume</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Mahendra. Made by Mahendra 2023.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Python Developer', 'Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
